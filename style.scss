@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #013A6B;
+}
+
+.indexText{
+    color: white;
+}
+
+.text{
+    color: white;
+    margin-bottom: 45px;
+    font-size: large;
+}
+
+.carta{
+    margin: 45px 0px 45px 0px;
+}
+
+.centrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 45px auto;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+iframe{
+    display: flex;
+    flex-direction: row;
+    margin: 45px auto;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    margin: auto;
+    color: white;
+}
+
+footer p:hover{
+    color: red;   
+}
+
+.agrandar{
+    font-size: larger;
+}
+
+.agrandar:hover{
+    scale: 1.1;
+}
+
+.textoSillas{
+    width: 50%;
+    margin: 35px 0 45px 25%;
+    text-align: center;
+}
+.sillas{
+    padding-left: 10%;
+}
+
+.explcacion{
+    text-align: center;
+}
+
+@mixin blanco($colorBlanco) {
+    color: $colorBlanco;
+    @extend .centrar;
+}
+
+.textoSubrayado{
+    @include blanco(white);
+    width: 50%;
+    text-align: center;
+}
+
+u:hover{
+    color: blueviolet;
+}
+
+.animar:hover{
+    scale: 1.2;
+}
+
+.animar #mesas1{
+    margin-left: 38%;
+}
+
+.animar #mesas2{
+    margin-left: 36%;
+}
+
+@media screen and (max-width: 769px) {
+    .imagenesIntro{
+        width: 100vw;
+    }
+}

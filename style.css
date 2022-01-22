@@ -1,124 +1,104 @@
-body{
-    background-image: -webkit-linear-gradient(45deg, #013A6B 50%, white 50%);
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.index{
-    height: 225px;
-    width: 225px;
+body {
+  background-color: #013A6B;
 }
 
-footer{
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
-    margin: auto;
-    color: white;
+.indexText {
+  color: white;
 }
 
-.headerOffset{
-    margin-top: 40px;
+.text {
+  color: white;
+  margin-bottom: 45px;
+  font-size: large;
 }
 
-.index:hover{
-    scale: 1.1;
+.carta {
+  margin: 45px 0px 45px 0px;
 }
 
-.col-md-3{
-    color: white;
-}
-.row, .fondo{
-    margin: 10px;
-}
-
-.animar{
-    transition: all .2s ease-in-out;
+.centrar, .textoSubrayado {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 45px auto;
 }
 
-.animar:hover{
-    transform: scale(1.1);
+.link {
+  text-decoration: none;
+  color: white;
 }
 
-footer p:hover{
-    color: red;
-    
+iframe {
+  display: flex;
+  flex-direction: row;
+  margin: 45px auto;
 }
 
-@media screen and (max-width: 767px) {
-    .col-md-3{
-        color: currentColor;
-        margin-bottom: 10px;
-    }
-
-    .introExplicacion{
-        text-align: center;
-    }
-
-    .col-sm-12{
-        color: white;
-        margin-top: auto;
-    }
-
-    span{
-        color: #013A6B;
-    }
-    .localidad{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        color: #013A6B;
-    }
-    .card{
-        color: black;
-    }
-    .mesas{
-        height: 40vh;
-        width: auto;
-        display: flex;
-        flex-direction: row;
-        margin-left: 25%;
-    }
-    .centrar{
-        display: flex;
-        flex-direction: column;
-        width: 50vw;
-        align-items: center;
-        margin-left: 25%;
-    }
-    #mesas1{
-        display: flex;
-        padding-left: 20%;
-    }
+footer {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  margin: auto;
+  color: white;
 }
 
-@media screen and (min-width: 768px) {
-    .flex{
-        display: flex;
-        flex-direction: row;
-        margin-top: 20px;
-    }
-
-    .row{
-        width: auto;
-    }
-    .col-md-4{
-        width: 300px;
-        height: 300px;
-    }
-
-    .mesas{
-        height: 60vh;
-        width: auto;
-        display: flex;
-        margin-left: 25%;
-    }
-    #mesas1{
-        display: flex;
-        padding-left: 20%;
-    }
-    #mesas2{
-        padding: 5%;
-    }
-    #mesaRedonda{
-        color: white;
-    }
+footer p:hover {
+  color: red;
 }
+
+.agrandar {
+  font-size: larger;
+}
+
+.agrandar:hover {
+  scale: 1.1;
+}
+
+.textoSillas {
+  width: 50%;
+  margin: 35px 0 45px 25%;
+  text-align: center;
+}
+
+.sillas {
+  padding-left: 10%;
+}
+
+.explcacion {
+  text-align: center;
+}
+
+.textoSubrayado {
+  color: white;
+  width: 50%;
+  text-align: center;
+}
+
+u:hover {
+  color: blueviolet;
+}
+
+.animar:hover {
+  scale: 1.2;
+}
+
+.animar #mesas1 {
+  margin-left: 38%;
+}
+
+.animar #mesas2 {
+  margin-left: 36%;
+}
+
+@media screen and (max-width: 769px) {
+  .imagenesIntro {
+    width: 100vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
