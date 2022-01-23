@@ -83,8 +83,36 @@ footer p:hover{
     text-align: center;
 }
 
+.tituloCintas{
+    @include blanco(white);
+}
+
+.titulo{
+    @include blanco(white);
+}
+
+.textoExplicacion{
+    @include blanco(white);
+    @extend .centrar;
+    width: 60%;
+    text-align: center;
+}
+
+.form{
+    @include blanco(white);
+}
+
 u:hover{
     color: blueviolet;
+}
+
+form span{
+    color: white;
+}
+
+.centrarColumna{
+    margin-top: 15%;
+    text-align: center;
 }
 
 .animar:hover{

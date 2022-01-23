@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark dropdown">
-            
+
         <a href="#" class="navbar-brand">Mantelería</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -39,27 +42,49 @@
         </div>
     </nav>
 
-    <form action="PHP" method="post">
-        Nombre completo<input type="text" name="nombre"><br><br><br><br>
-        Correo electrónico <input type="email" name="email" placeholder="usuario@ejemplo.com"><br><br><br><br>
-        Evento <select name="evento" id="">
-            <option value="">Soltero/a</option>
-            <option value="casado">Casado/a</option>
-            <option value="viudo">Viudo/a</option>
-        </select> <br><br><br><br>
-        ¿Desea recibir nuestro Newsletter? <input type="checkbox" name="quiero" value="1"><br><br><br><br>
-        <textarea name="comment" id="" cols="30" rows="10"></textarea><br>
-        <button>Enviar formulario</button> <button>Limpiar formulario</button>
-    </form>
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <form action="PHP" method="post">
+                <span>Nombre completo</span><input type="text" name="nombre"><br><br><br><br>
+                <span>Correo electrónico</span><input type="email" name="email"
+                    placeholder="usuario@ejemplo.com"><br><br><br><br>
+                <span>Evento</span><select name="evento" id="">
+                        <option value="">Casamiento</option>
+                        <option value="casado">Cumpleaños</option>
+                        <option value="viudo">Otro</option>
+                    </select> <br><br><br><br>
+                    <span>¿Desea recibir nuestro Newsletter?</span><input type="checkbox" name="quiero" value="1"><br><br><br><br>
+                        <textarea name="comment" id="" cols="30" rows="10"></textarea><br>
+                        <button>Enviar formulario</button> <button>Limpiar formulario</button>
+            </form>
+        </div>
+        
+        <div class="col-md-6 col-sm-12 text centrarColumna">
+            Rellene los el formulario con sus datos de con todos los detalles para cumplir con su envío en tiempo y forma. Muchas Gracias.
+        </div>
+    </div>
+    <!-- Footer -->
+
     <footer>
-        <p>Contacto</p>
-        <p>Copyright</p>
-        <p>Nombre y logo</p>
+        <footer>
+            <a class="link" href="contacto.html">Contacto</a>
+            <p>Copyright</p>
+            <p>Nombre y logo</p>
+        </footer>
     </footer>
 
+    <!-- Fin footer -->
+
     <!-- Script bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

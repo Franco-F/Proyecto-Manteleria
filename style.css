@@ -21,7 +21,7 @@ body {
   margin: 45px 0px 45px 0px;
 }
 
-.centrar, .textoSubrayado {
+.centrar, .form, .textoExplicacion, .titulo, .tituloCintas, .textoSubrayado {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -79,8 +79,35 @@ footer p:hover {
   text-align: center;
 }
 
+.tituloCintas {
+  color: white;
+}
+
+.titulo {
+  color: white;
+}
+
+.textoExplicacion {
+  color: white;
+  width: 60%;
+  text-align: center;
+}
+
+.form {
+  color: white;
+}
+
 u:hover {
   color: blueviolet;
+}
+
+form span {
+  color: white;
+}
+
+.centrarColumna {
+  margin-top: 15%;
+  text-align: center;
 }
 
 .animar:hover {
